@@ -1,0 +1,13 @@
+{
+  "name": "permutation",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "index.js",
+  "author": "Michael Horojanski",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "joi": "^17.10.0"
+  }
+}
