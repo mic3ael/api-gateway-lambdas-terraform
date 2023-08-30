@@ -1,3 +1,3 @@
-output "permutation_lambda_function_data" {
-  value = module.iac_create.permutation_lambda_function_data
+output "lambda_functions" {
+  value = aws_lambda_function.lambdas
 }

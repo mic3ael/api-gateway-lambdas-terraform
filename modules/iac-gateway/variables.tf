@@ -1,8 +1,8 @@
 variable "targets" {
   type = list(object({
     lambda = object({
-      name       = string,
-      invoke_arn = string
+      function_name = string,
+      invoke_arn    = string
     }),
     endpoint = object({
       route  = string,
