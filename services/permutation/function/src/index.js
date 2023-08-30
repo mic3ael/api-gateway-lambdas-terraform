@@ -1,7 +1,7 @@
 import Joi from 'joi';
 import permutation from './services/permutation.js';
 
-const schema = Joi.object({ value: Joi.string().min(1).max(10).required() });
+const schema = Joi.object({ value: Joi.string().min(1).max(8).required() });
 
 const permutationService = permutation({});
 
