@@ -5,7 +5,6 @@ function swap(array, i, j) {
 }
 
 function getPermutationsHelper(i, array, perms) {
-  // Write your code here.
   if (array.length - 1 === i) return perms.push(Array.from(array));
 
   for (let j = i; j < array.length; j++) {
